@@ -1,4 +1,4 @@
-header, main, footer, nav, div {
+header, main, footer, nav, div, body{
     text-align: center;
     border: 1px solid rgb(15, 145, 252);
     margin: 5px;
