@@ -1,15 +1,51 @@
 header, main, footer, nav, div, body{
     text-align: center;
     border: 1px solid rgb(15, 145, 252);
-    margin: 5px;
+    margin: 0px;
     background: rgb(255, 252, 62);
-
+    font-family: 'Roboto', sans-serif;
     
 }
 h1 , h2 {
     color: mediumblue;
 
 }
-.main-nav {
-    text-align: left;
+
+.main-nav .list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    text-transform: capitalize;
 }
+
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-text {
+   width: 400px;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

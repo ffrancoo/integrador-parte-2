@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Franco Daniel Ramos">
     <meta name="description" content="Pagina Web sobre Mercado libre">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <title>Mercado libre</title>
 </head>
 <body>
     <header>
-        <div>
-        <h1>Mercado libre</h1>
+        <div>      
         <img src="./img/logo.jpg" alt="Logo" height="300">
         </div>
         <nav class="main-nav">
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="#sobre">Sobre la empresa</a>
                 </li>
@@ -24,7 +26,10 @@
                     <a href="#funcionamiento">Funcionamiento de la empresa</a>
                 </li>
                 <li>
-                    <a href="#Contactar">Contacto</a>
+                    <a href="#contactar">Contacto</a>
+                </li>
+                <li>
+                    <a href="#expansion">Expansion de la empresa</a>
                 </li>
             </ul>
         </nav>
@@ -39,6 +44,14 @@
             </div>
         </section>
 
+        <section id="expansion">
+           <div>
+               <h2>Expansion</h2>
+               <p>De 5.000 usuarios registrados durante su primer mes pasó a reportar un total de 267 millones en su último balance anual. Además, su propio core cambió, ya que la pata de venta de artículos le cedió el trono a la de pagos, que en 2018 procesó u$s18.450 millones, un 35% más que en el año anterior.</p>
+                 
+            </div>
+        </section>
+
         <!-- Comentarios de la Seccion 2 -->
         <section id="funcionamiento">
             <div>
@@ -48,24 +61,23 @@
         </div>
         </section>
         <!-- Comentarios de la Seccion 3 -->
-        <section id="Contactar">
+        <section id="contactar">
             <div>
             <h2>Contacto</h2>
-            <P><img src="./img/phone.png"  height="50"> Tenemos diferentes numeros telefonicos para contactarnos con Mercadolibre, por via telefonica el numero de telefono es (54 11) 4640-8000, ademas podemos contactarnos mediante el soporte via Whatsapp que es la forma mas simple, para contactarse por whatsapp use el siguiente numero: +54 9 11 2722-7255</P>
+            <div class="contact-container">
+                <img src="./img/phone2.png"  height="90">
+                <P class="contact-text"> Tenemos diferentes numeros telefonicos para contactarnos con Mercadolibre, por via telefonica el numero de telefono es (54 11) 4640-8000, ademas podemos contactarnos mediante el soporte via Whatsapp que es la forma mas simple, para contactarse por whatsapp use el siguiente numero: +54 9 11 2722-7255</P>
+            </div>
             </div>
             <div>
-                    <li>
-                        <img src="./img/img.png"  height="20">
-                        <a href="./contratar.html">Formulario</a>
-                    </li>
-                </ul>
-                <iframe width="200" height="150" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>	
+                <iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>	
             </div>
 
         </section>
     </main>
 
     <footer>
+        <a href="./contratar.html">Formulario</a>
         <P>Copyright 2022 - <a target="_blank" href="https://www.instagram.com/mercadolibre.arg">Instagram</a> </P>
     </footer>
 </body>
